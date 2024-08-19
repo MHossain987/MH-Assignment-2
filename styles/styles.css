@@ -753,3 +753,108 @@ th{
     }
 }
 /* team part styling ends */
+/* footer styling starts */
+footer{
+    margin: 0 auto;
+    padding: 4.583333333vw 13.194444444vw 2.430555555vw;
+}
+.the-end{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,17.361111111vw);
+    column-gap: 5.416666666vw;
+}
+.end-logo{
+    font-size: 4.861111111vw;
+    font-weight: 900;
+}
+.footer-text{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+}
+.footer-text>h5{
+    margin: 0;
+    padding: 0;
+}
+.footer-text>p{
+    margin: 1.388888888vw 0 0 0;
+    padding: 0;
+}
+.service-lists{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.service-lists>ul>.list-head{
+    margin: 0 0 1.388888888vw 0;
+    font-weight: 800;
+}
+.service-lists>ul{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 1.388888888vw;
+    justify-content: flex-start;
+    text-align: left;
+}
+.service-lists>ul>li{
+    list-style: none;
+}
+.service-lists>ul>.list-item{
+    font-size: 0.972222222vw;
+    color: rgba(255, 255, 255, 0.5);
+}
+hr{
+    margin: 0;
+}
+.copyright{
+    margin: 2.430555555vw 0 0 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0.833333333vw;
+}
+/* for extra small devices */
+@media screen and (max-width: 576px) {
+    footer{
+        margin: 0 auto;
+        padding: 5.089058524vw;
+    }
+    .the-end{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,63.61323155vw);
+        row-gap: 6.361323155vw;
+    }
+    .end-logo{
+        font-size: 17.81170483vw;
+    }
+    .footer-text{
+        justify-content: center;
+    }
+    .footer-text>p{
+        margin: 5.089058524vw 0 0 0;
+        font-size: 3.562340967vw;
+    }
+    .service-lists{
+        align-items: flex-start;
+    }
+    .service-lists>ul>.list-head{
+        margin: 0 0 5.089058524vw 0;
+        font-size: 8.142493639vw;
+    }
+    .service-lists>ul{
+        gap: 5.089058524vw;
+    }
+    .service-lists>ul>.list-item{
+        font-size: 5.852417303vw;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    hr{
+        margin: 5.089058524vw 0 0 0;
+    }
+    .copyright{
+        margin: 5.089058524vw 0 0 0;
+        font-size: 3.053435115vw;
+    }
+}
+/* footer styling ends */
