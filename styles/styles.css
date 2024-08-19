@@ -420,3 +420,70 @@ nav>ul{
     }
 }
 /* habit related styling ends */
+/* run extra mile related styling starts */
+.run-miles{
+    margin: 6.94444444vw auto 0;
+    padding: 2.75vw;
+    gap: 12.45833333vw;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1.25vw;
+}
+.extra-miles>h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+.extra-miles>p{
+    margin: 0.97222222vw 0 2.36111111vw;
+    padding: 0;
+}
+.run-image{
+    width: 25.41666666vw;
+    aspect-ratio: 61/52;
+    align-items: center;
+    border: none;
+    border-radius: 1.25vw;
+}
+/* for extra small devices */
+@media screen and (max-width: 576px) {
+    .run-miles{
+        margin: 16.79389313vw auto 0;
+        padding: 8.142493639vw;
+        flex-direction: column;
+        gap: 7.633587786vw;
+        border-radius: 4.580152672vw;
+    }
+    .extra-miles>h4{
+        font-size: 8.142493639vw;
+    }
+    .extra-miles>p{
+        margin: 3.562340967vw 0 6.106870229vw;
+        font-size: 3.562340967vw;
+    }
+     .run-image{
+        display: none;
+        width: 0;
+        aspect-ratio: 0;
+        border: none;
+        border-radius: 0;
+     }
+     .extra-bg-img{
+        width: 73.02798982vw;
+        aspect-ratio: 287/170;
+        border: none;
+        border-radius: 4.580152672vw;
+        background-image: url(../images/run-resized2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+     }
+    .btn-primary-run{
+        padding: 4.071246819vw 25.95419847vw;
+        border-radius: 10.6870229vw;
+        font-size: 4.580152672vw;
+    }
+}
+/* run extra mile related styling ends */
