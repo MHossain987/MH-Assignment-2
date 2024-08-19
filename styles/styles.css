@@ -638,3 +638,118 @@ th{
     }
 }
 /* bmi calculator part styling ends */
+/* team part styling starts */
+.team{
+    margin: 6.111111111vw auto 0;
+    padding: 0;
+    width: 73.611111111vw;
+}
+.team-heading{
+    margin: 0 auto 4.027777777vw;
+    padding: 0;
+    text-align: center;
+}
+.team-heading>h5{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+.team-heading>p{
+    margin: 0.972222222vw 0 0;
+    padding: 0;
+}
+.team-members{
+    padding: 1.388888888vw;
+    grid-template-columns: repeat(3, calc((73.611111111vw - 5.555555555vw) / 3));
+    grid-template-rows: repeat(2, calc((41.944444444vw - 4.166666666vw) / 2));
+    column-gap: 1.388888888vw;
+    row-gap: 1.388888888vw;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 1.25vw;
+}
+.member-bg-img-01{
+    background-image: url(../images/trainer1.png);
+}
+.member-bg-img-02{
+    background-image: url(../images/trainer2.png);
+}
+.member-bg-img-03{
+    background-image: url(../images/trainer3.png);
+}
+.member-bg-img-04{
+    background-image: url(../images/trainer4.png);
+}
+.member-bg-img-05{
+    background-image: url(../images/trainer5.png);
+}
+.member-bg-img-06{
+    background-image: url(../images/trainer6.png);
+}
+.t-bg-features{
+    width: 22.685416666vw;
+    height: 18.888888888vw;
+    border: none;
+    border-radius: 1.25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.t-member{
+    margin: 14.722222222vw auto 1.111111111vw 1.319444444vw;
+    padding: 0;
+    text-align: left;
+}
+.t-member>h6{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+.t-member>p{
+    margin: 0.208333333vw;
+    padding: 0;
+}
+/* for extra small devices */
+@media screen and (max-width: 576px) {
+    .team{
+        margin: 16.79389313vw auto 0;
+        width: 89.82188295vw;
+    }
+    .team-heading{
+        margin: 0 auto 9.41475827vw;
+    }
+    .team-heading>h5{
+        font-size: 8.142493639vw;
+    }
+    .team-heading>p{
+        margin: 3.562340967vw 0 0;
+        font-size: 3.562340967vw;
+    }
+    .team-members{
+        padding: 5.089058524vw;
+        grid-template-columns: repeat(1, calc(89.82188295vw - 20.3562341vw));
+        grid-template-rows: repeat(6, 69.21119593vw);
+        justify-items: normal;
+        column-gap: 0;
+        row-gap: 5.089058524vw;
+        border-radius: 4.580152672vw;
+    }
+    .t-bg-features{
+        width: 79.6437659vw;
+        height: 69.21119593vw;
+        border-radius: 4.580152672vw;
+    }
+    .t-member{
+        margin: 53.94402036vw auto 4.071246819vw 4.834605598vw;
+    }
+    .t-member>h6{
+        font-size: 5.089058524vw;
+    }
+    .t-member>p{
+        margin: 0.7633587786vw;
+        font-size: 3.562340967vw;
+    }
+}
+/* team part styling ends */
