@@ -95,3 +95,328 @@ main{
     font-size: 1.25vw;
 }
 /* UNIVERSALLY SHARED STYLES ENDS */
+/* navbar & banner part related styling starts */
+/* navbar related styling starts */
+nav{
+    margin: 0;
+    padding: 3.95833333vw 13.19444444vw 2.22222222vw;
+}
+nav>ul{
+    width: 73.61111111vw;
+    margin: 0;
+    padding: 0;
+    gap: 26.15277777vw;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    list-style: none;
+    font-size: 2.22222222vw;
+    font-weight: 800;
+}
+.nav-items{
+    margin: 0;
+    padding: 0;
+    border: 0.06944444vw solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.70833333vw;
+    gap: 3.26388888vw;
+    align-items: center;
+}
+.nav-items>li{
+    list-style: none;
+    margin: 0.27777777vw;
+    padding: 0.55555555vw 1.38888888vw;
+}
+.btn-home{
+    margin: 0.27777777vw;
+    padding: 0.55555555vw 1.38888888vw;
+    border: none;
+    border-radius: 2.91666666vw;
+    background-color: rgba(230, 83, 60, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 1.25vw;
+}
+/* navbar related styling ends */
+/* banner related styling starts */
+.banner{
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(17, 17, 17,1), rgba(119, 119, 119, 1), rgba(17,17,17,1));
+}
+.banner-description{
+    margin: 0 auto;
+    width: 71.94444444vw;
+    height: 40.27777777vw;
+    gap: 11.59722222vw;
+    justify-content: center;
+}
+.banner-text{
+    margin-top: 4.44444444vw;
+    text-align: left;
+}
+.banner-text h6{
+    margin: 0;
+    font-size: 5.41666666vw;
+    font-weight: 900;
+    line-height: 120%;
+}
+.miama-font{
+    font-size: 11.11111111vw;
+}
+.banner-text p{
+    margin: 1.94444444vw 0;
+}
+.banner-btn{
+    gap: 0.97222222vw;
+}
+.btn-download{
+    border: 0.06944444vw solid;
+    border-radius: 2.91666666vw;
+    padding: 1.11111111vw 3.26388888vw;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25vw;
+}
+#banner-bg-img{
+    background-image: url(../images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#p-total-videos{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+#total-videos-p{
+    font-size: 2.77777777vw;
+    font-weight: 800;
+}
+#total-videos-p-text{
+    font-size: 0.90277777vw;
+}
+.total-videos{
+    width: 10.40277777vw;
+    height: 5.80555555vw;
+    margin: 7.68055555vw -5.13888888vw 13.75vw 16.97222222vw;
+    border: none;
+    border-radius: 0.83333333vw;
+    padding: 1.11111111vw 1.52777777vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20);
+    justify-content: center;
+    align-items: center;
+}
+.play-tutorials{
+    align-items: center;
+    justify-content: center;
+    gap: 0.83333333vw;
+}
+.play-tutorials img{
+    width: 2.77777777vw;
+    height: 2.77777777vw;
+}
+#p-tutorial-videos{
+    width: 8.40277777vw;
+    height: 4.80555555vw;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+#tutorial-videos-p{
+    font-size: 1.66666666vw;
+    font-weight: 800;
+}
+.tutorial-videos{
+    width: 12.30555555vw;
+    height: 4.66666666vw;
+    margin: 13.75vw 17.77777777vw 4.375vw -7.84722222vw;
+    border: none;
+    border-radius: 0.83333333vw;
+    padding: 1.38888888vw 1.59722222vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20);
+}
+/* for extra small devices */
+@media screen and (max-width: 576px) {
+    .banner{
+        padding: 5.089058524vw 5.089058524vw 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .miama-font{
+        font-size: 24.160305344vw;
+    }
+    nav{
+        margin: 0 auto;
+        padding: 0;
+        width: 89.82188295vw;
+    }
+    nav>ul{
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+    }
+    .logo{
+        font-size: 9.160305344vw;
+    }
+    .nav-items{
+        display: none;
+    }
+    .banner-description{
+        margin: 5.089058524vw auto 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4.580152672vw;
+        width: 89.82188295vw;
+        height: auto;
+    }
+    .banner-text{
+        margin: 0;
+    }
+    .banner-text h6{
+        font-size: 10.160305344vw;
+    }
+    .banner-text p{
+        margin: 7.124681934vw 0;
+        font-size: 4.071246819vw;
+    }
+    .banner-btn .btn-primary, .btn-download{
+        border: 0.2544529262vw solid;
+        border-radius: 10.6870229vw;
+        padding: 4.071246819vw 4.95928753vw;
+        font-size: 4.580152672vw;
+    }
+    .banner-btn{
+        gap: 3.562340967vw;
+    }
+    .total-videos{
+        width: 32.11704835vw;
+        height: 17.27226463vw;
+        border-radius: 3.053435115vw;
+        padding: 4.071246819vw 5.597964377vw;
+        margin: 12.21374046vw 3.307888041vw 38.16793893vw 46.61832061vw;
+    }
+    #total-videos-p{
+        font-size: 10.17811705vw;
+    }
+    #total-videos-p-text{
+        font-size: 3.303888041vw;
+    }
+    .tutorial-videos{
+        width: 45.08905852vw;
+        height: 17.09923664vw;
+        border-radius: 3.053435115vw;
+        padding: 5.089058524vw 5.852417303vw;
+        margin: 38.16793893vw 47.07379135vw 62.08651399vw 3.053435115vw;
+    }
+    .play-tutorials{
+        gap: 3.053435115vw;
+    }
+    .play-tutorials img{
+        width: 10.17811705vw;
+        height: 10.17811705vw;
+    }
+    #p-tutorial-videos{
+        width: 30.78880407vw;
+        height: 17.60814249vw;
+    }
+    #tutorial-videos-p{
+        font-size: 6.106870229vw;
+    }
+    .tutorial-p-videos{
+        font-size: 4.071246819vw;
+    }
+}
+/* banner related styling ends */
+/* habit related styling starts */
+.habits{
+    width: 72.5vw;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habits>h3{
+    margin: 0 0 0.97222222vw;
+    font-weight: 900;
+    text-align: center;
+}
+.habits>p{
+    margin: 0 0 4.02777777vw;
+    padding: 0;
+    text-align: center;
+}
+.habits-names{
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2.77777777vw;
+}
+/* .habits-names{
+    gap: 2.77777777vw;
+}
+    here first - display is set to flex but works same as grid */
+.indv-habit-name{
+    text-align: center;
+}
+.indv-habit-name h6{
+    margin: 2.08333333vw 0 0.41666666vw;
+}
+.indv-habit-name p{
+    margin: 0;
+    padding: 0;
+}
+.circled-image{
+    width: 12.56944444vw;
+    height: 12.5vw;
+    border: none;
+    clip-path: circle(50%);
+}
+/* for extra small devices */
+@media screen and (max-width: 576px) {
+    main{
+        padding: 5.089058524vw 5.089058524vw 5.089058524vw;
+    }
+    .habits{
+        width: 89.82188295vw;
+    }
+    .habits>h3{
+        margin: 0 0 3.562340967vw;
+        font-size: 8.142493639vw;
+    }
+    .habits>p{
+        margin: 0 0 14.75826972vw;
+        font-size: 3.562340967vw;
+    }
+    .habits-names{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        row-gap: 10.17811705vw;
+        column-gap: 0;
+    }
+    /* .habits-names{
+        flex-direction: column;
+        gap: 10.17811705vw;
+    }
+        here first - display is set to flex but works same as grid */
+    .indv-habit-name h6{
+        margin: 7.633587786vw 0 1.526717557vw;
+        font-size: 4.580152672vw;
+    }
+    .indv-habit-name p{
+        margin: 0;
+        padding: 0;
+        font-size: 3.562340967vw;
+    }
+    .circled-image{
+        width: 46.05597964vw;
+        height: 45.80152672vw;
+        border: none;
+        clip-path: circle(50%);
+    }
+}
+/* habit related styling ends */
