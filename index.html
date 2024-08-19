@@ -81,6 +81,70 @@
             </div>
             <div class="extra-bg-img"><img class="run-image flex-display" src="images/run-resized1.jpg" alt="A person is running along a track in the middle of a field"></div>
          </div>
+        <!-- calculator part -->
+        <div id="bmi">
+            <div id="bmi-heading">
+                <h5 class="font-size-03 font-color-02">BMI Calculator</h5>
+                <p class="font-size-01 font-color-01">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+            <div class="calculator flex-display bg-color-02">
+                <div class="chart-table flex-display">
+                    <h6 class="font-size-06 font-color-02">BMI Calculator Chart</h6>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="font-size-mq-th font-size-04 font-color-02">BMI</th>
+                                    <th class="font-size-mq-th font-size-04 font-color-02">Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">Below 18.5</td>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">18.5 - 24.9</td>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">25.0 - 29.9</td>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">30.0 - and Above</td>
+                                    <td class="font-size-mq-td font-size-01 font-color-01">Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="calculate-input">
+                    <h6 class="font-size-06 font-color-02">Calculate Your BMI</h6>
+                    <p class="font-size-01 font-color-01">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <div class="grid-display info-required">
+                        <input class="info-items font-size-04 font-color-06" type="number" placeholder="Height (cm)">
+                        <input class="info-items font-size-04 font-color-06" type="number" placeholder="Weight (kg)">
+                        <input class="info-items font-size-04 font-color-06" type="number" placeholder="Age">
+                        <select class="info-items font-size-04 font-color-06">
+                            <option value="0">Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                        <select class="info-items font-size-04 font-color-06" id="SAAF">
+                            <option value="0">Select An Activity Factor</option>
+                            <option value="1.2">Sedentary</option>
+                            <option value="1.375">Lightly Active</option>
+                            <option value="1.55">Moderately Active</option>
+                            <option value="1.725">Very Active</option>
+                            <option value="1.9">Extra Active</option>
+                        </select>
+                    </div>
+                    <div class="bmi-btn"><button class="font-size-02 btn-primary btn-primary-bmi">Calculate</button></div>
+                </div>
+            </div>
+         </div>
      </main>
     <!-- main part formatting ends -->
 </body>

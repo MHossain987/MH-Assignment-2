@@ -487,3 +487,154 @@ nav>ul{
     }
 }
 /* run extra mile related styling ends */
+/* bmi calculator part styling starts */
+#bmi{
+    margin: 6.111111111vw auto 0;
+    padding: 0;
+}
+#bmi-heading{
+    margin: 0 auto 4.111111111vw;
+    width: 46.597222222vw;
+    aspect-ratio: 671/120;
+    text-align: left;
+}
+#bmi-heading>h5{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+#bmi-heading>p{
+    margin: 0.972222222vw 0 0 0;
+    padding: 0;
+}
+.calculator{
+    padding: 2.777777777vw;
+    gap: 3.125vw;
+    justify-content: center;
+    align-items: flex-start;
+    border: none;
+    border-radius: 1.25vw;
+}
+.chart-table{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+}
+.chart-table>h6{
+    margin: 0 0 3.611111111vw 0;
+    padding: 0;
+    font-weight: 900;
+}
+table{
+    border-collapse: collapse;
+    width: 21.527777777vw;
+}
+th, td{
+    border: 0.06944444vw solid rgba(255, 255, 255, 0.2);
+    padding: 0.9027777777vw 1.25vw;
+    text-align: left;
+}
+th{
+    font-weight: 500;
+}
+.calculate-input>h6{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+.calculate-input>p{
+    margin: 0.972222222vw 0 2.361111111vw;
+    padding: 0;
+}
+.bmi-btn{
+    margin: 2.361111111vw 0 0 0;
+    padding: 0;
+}
+.info-required{
+    grid-template-columns: repeat(2,19.618055555vw);
+    grid-template-rows: repeat(3,3.333333333vw);
+    column-gap: 0.833333333vw;
+    row-gap: 0.833333333vw;
+}
+.info-items{
+    border: none;
+    border-radius: 0.555555555vw;
+    margin: 0;
+    padding: 0.833333333vw 1.388888888vw;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#SAAF{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+/* for extra small devices */
+@media screen and (max-width: 576px) {
+    #bmi{
+        margin: 7.633587786vw auto 0;
+    }
+    #bmi-heading{
+        margin: 0 auto 7.633587786vw;
+        width: 89.82188295vw;
+        aspect-ratio: 353/124;
+    }
+    #bmi-heading>h5{
+        font-size: 8.142493639vw;
+    }
+    #bmi-heading>p{
+        margin: 3.562340967vw 0 0 0;
+        font-size: 3.562340967vw;
+    }
+    .calculator{
+        padding: 6.03562341vw 5.03562341vw 6.03562341vw;
+        flex-direction: column;
+        gap: 10.17811705vw;
+        align-items: center;
+        border-radius: 4.071246819vw;
+    }
+    .chart-table>h6{
+        margin: 3.816793893 0 5.089058524vw 0;
+        font-size: 4.071246819vw;
+    }
+    table{
+        width: 78.88040712vw;
+    }
+    .font-size-mq-th{
+        font-size: 4.071246819vw;
+    }
+    .font-size-mq-td{
+        font-size: 3.562340967vw;
+    }
+    th, td{
+        border: 0.2544529262vw solid rgba(255, 255, 255, 0.2);
+        padding: 3.307888041vw 4.580152672vw;
+    }
+    .calculate-input>h6{
+        font-size: 4.071246819vw;
+    }
+    .calculate-input>p{
+        margin: 3.562340967vw 0 8.651399491vw;
+        font-size: 3.562340967vw;
+    }
+    .bmi-btn{
+        margin: 8.651399491vw 0 0 0;
+    }
+    .btn-primary-bmi{
+        padding: 4.071246819vw 17.81170483vw;
+        border-radius: 10.6870229vw;
+        font-size: 4.580152672vw;
+    }
+    .info-required{
+        grid-template-columns: repeat(2,38.51978317vw);
+        grid-template-rows: repeat(3,12.21374046vw);
+        column-gap: 3.053435115vw;
+        row-gap: 3.053435115vw;
+    }
+    .info-items{
+        border-radius: 2.03562341vw;
+        padding: 3.307888041vw 5.089058524vw;
+        font-size: 4.071246819vw;
+    }
+}
+/* bmi calculator part styling ends */
