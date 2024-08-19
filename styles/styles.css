@@ -10,14 +10,17 @@
 .miama-font{
     font-family: "Miama", sans-serif;
     font-optical-sizing: auto;
-    font-size: 10rem;
     font-weight: 400;
     font-style: normal;
 }
 /* UNIVERSALLY SHARED STYLES STARTS */
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+}
+main{
+    margin: 0 auto;
+    padding: 6.94444444vw 13.75vw 6.11111111vw;
 }
 /* flex display */
 .flex-display{
@@ -26,6 +29,16 @@ body{
 /* grid display */
 .grid-display{
     display: grid;
+}
+/* background colors */
+.bg-color-01{
+    background-color: black;
+}
+.bg-color-02{
+    background-color: rgb(34, 34, 34);
+}
+.bg-color-03{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 /* font colors */
 .font-color-01{
@@ -43,146 +56,42 @@ body{
 .font-color-05{
     color: rgba(239, 237, 232, 0.65);
 }
+.font-color-06{
+    color: rgba(255, 255, 255, 0.60);
+}
 .orange-color{
     color: rgba(230, 83, 60, 1);
 }
 /* font sizes */
 .font-size-01{
-    font-size: 0.875rem;
+    font-size: 0.97222222vw;
 }
 .font-size-02{
-    font-size: 1.125rem;
+    font-size: 1.25vw;
 }
 .font-size-03{
-    font-size: 3rem;
+    font-size: 3.33333333vw;
 }
 .font-size-04{
-    font-size: 1rem;
+    font-size: 1.11111111vw;
 }
 .font-size-05{
-    font-size: 1.25rem;
+    font-size: 1.38888888vw;
 }
 .font-size-06{
-    font-size: 1.75rem;
+    font-size: 1.94444444vw;
 }
 .font-size-07{
-    font-size: 2rem;
+    font-size: 2.22222222vw;
 }
 /* button */
 .btn-primary{
-    padding: 1rem 2.9375rem;
+    padding: 1.11111111vw 3.26388888vw;
     border: none;
-    border-radius: 2.625rem;
+    border-radius: 2.91666666vw;
     background-color: rgba(230, 83, 60, 1);
     color: white;
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 1.25vw;
 }
 /* UNIVERSALLY SHARED STYLES ENDS */
-/* navbar & banner part related styling starts */
-/* navbar related styling starts */
-nav>ul{
-    margin: 0;
-    padding: 3.5625rem 11.875rem 2rem;
-    align-items: center;
-}
-.logo{
-    list-style: none;
-    margin:0 auto 0 0;
-    font-size: 2rem;
-    font-weight: 800;
-}
-.nav-items{
-    margin: 0;
-    padding: 0;
-    border: 0.0625rem solid rgba(255, 255, 255, 0.1);
-    border-radius: 2.4375rem;
-    gap: 2.9375rem;
-    align-items: center;
-}
-.nav-items>li{
-    list-style: none;
-    margin: 0.25rem;
-    padding: 0.5rem 1.25rem;
-}
-.btn-home{
-    margin: 0.25rem;
-    padding: 0.5rem 1.25rem;
-    border: none;
-    border-radius: 2.625rem;
-    background-color: rgba(230, 83, 60, 1);
-    color: white;
-    font-weight: 600;
-    font-size: 1.125rem;
-}
-/* navbar related styling ends */
-/* banner related styling starts */
-.banner{
-    margin: 0 auto;
-    width: 90rem;
-    height: 100%;
-    background: linear-gradient(0deg, rgba(17, 17, 17,1), rgba(119, 119, 119, 1), rgba(17,17,17,1));
-}
-.banner-description{
-    margin: 0 8.75rem 0 11.875rem;
-    gap: 10.4375rem;
-}
-.banner-text{
-    margin-top: 4rem;
-    text-align: left;
-}
-.banner-text h6{
-    margin: 0;
-    font-size: 4.875rem;
-    font-weight: 900;
-    line-height: 120%;
-}
-.banner-text p{
-    margin: 1.75rem 0;
-}
-.banner-btn{
-    gap: 0.875rem;
-}
-.btn-download{
-    border: 0.0625rem solid;
-    border-radius: 2.625rem;
-    padding: 1rem 2.9375rem;
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    font-size: 1.125rem;
-}
-#banner-bg-img{
-    background-image: url(../images/Images\ 2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-#total-videos-p{
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-#total-videos-p-text{
-    font-size: 0.8125rem;
-}
-.p-total-videos{
-    margin: 7.8125rem -4.625rem 12.375rem 14.375rem;;
-    border: none;
-    border-radius: 0.75rem;
-    padding: 1rem 1.375rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20);
-}
-#tutorial-videos-p{
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-.p-tutorial-videos{
-    margin: 12.375rem 16rem 3.9375rem -7.0625rem;;
-    border: none;
-    border-radius: 0.75rem;
-    padding: 1.25rem 1.4375rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20);
-}
-/* banner related styling ends */
